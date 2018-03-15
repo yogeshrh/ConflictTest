@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="10485762">
+        <Header Description="online1" ISN_2="1" LastIsn="1" id="10485762">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,16 +27,36 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified date="00/00/0000" time="00:00:00"/>
+          <LastModified _date="736768" _time="70448" date="15/03/2018" time="19:34:08"/>
         </Header>
+        <ItemIsn val="2"/>
         <Resource>
-          <Columns/>
+          <Columns>
+            <Column id="10485761" name="a">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="10"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="10"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="10485762" name="b">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="20"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="20"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+          </Columns>
         </Resource>
         <Information>
           <Key>
             <Mode val="N"/>
           </Key>
-          <DB/>
+          <DB comp="-1"/>
           <Sort>
             <CLS val="A"/>
           </Sort>
@@ -109,6 +129,28 @@
                   <Direction val="C"/>
                 </DATAVIEW_SRC>
               </LogicLine>
+              <LogicLine>
+                <Select FieldID="10485761" FlowIsn="10485763" id="10485761">
+                  <Column val="10485761"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="10485762" FlowIsn="10485764" id="10485762">
+                  <Column val="10485762"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
         </TaskLogic>
@@ -116,7 +158,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311"/>
+              <FormName id="311" valUnicode="online1"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>
