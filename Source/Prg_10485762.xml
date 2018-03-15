@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
-
   <Header>
     <Version val="13021"/>
     <WithIsn val="Y"/>
@@ -9,7 +8,6 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
-
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
@@ -27,26 +25,26 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736768" _time="70964" date="15/03/2018" time="19:42:44"/>
+          <LastModified _date="736768" _time="71867" date="15/03/2018" time="19:57:47"/>
         </Header>
-        <ItemIsn val="2"/>
+        <ItemIsn val="3"/>
         <Resource>
           <Columns>
-            <Column id="10485761" name="a1">
+            <Column id="10485761" name="aa">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="100"/>
+                <Picture id="157" valUnicode="11"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="100"/>
+                <Size id="174" val="11"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="10485762" name="b1">
+            <Column id="10485762" name="bb">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="200"/>
+                <Picture id="157" valUnicode="22"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="200"/>
+                <Size id="174" val="22"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -165,5 +163,4 @@
       </Task>
     </Programs>
   </ProgramsRepository>
-
 </Application>
