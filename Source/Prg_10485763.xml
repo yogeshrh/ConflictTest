@@ -27,12 +27,20 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
+<<<<<<< HEAD
           <LastModified _date="736780" _time="41225" date="27/03/2018" time="11:27:05"/>
+=======
+          <LastModified _date="736780" _time="52390" date="27/03/2018" time="14:33:10"/>
+>>>>>>> origin/Branch_A
         </Header>
         <ItemIsn val="3"/>
         <Resource>
           <Columns>
+<<<<<<< HEAD
             <Column id="10485761" name="a1">
+=======
+            <Column id="10485761" name="a">
+>>>>>>> origin/Branch_A
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="20"/>
@@ -41,7 +49,11 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
+<<<<<<< HEAD
             <Column id="10485762" name="a2">
+=======
+            <Column id="10485762" name="b">
+>>>>>>> origin/Branch_A
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="22"/>
@@ -50,7 +62,11 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
+<<<<<<< HEAD
             <Column id="10485763" name="a3">
+=======
+            <Column id="10485763" name="c">
+>>>>>>> origin/Branch_A
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="24"/>
@@ -193,6 +209,10 @@
                 <Font id="50" val="1"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+<<<<<<< HEAD
+=======
+                <_Orientation id="143"/>
+>>>>>>> origin/Branch_A
               </PropertyList>
             </Control>
             <Control _test_id="1" id="10485761">
@@ -206,6 +226,10 @@
                 <Height id="24" val="10"/>
                 <Data FieldID="10485761" id="43"/>
                 <ControlName id="46" val="a1"/>
+<<<<<<< HEAD
+=======
+                <_Orientation id="143"/>
+>>>>>>> origin/Branch_A
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
@@ -219,6 +243,10 @@
                 <Font id="50" val="1"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+<<<<<<< HEAD
+=======
+                <_Orientation id="143"/>
+>>>>>>> origin/Branch_A
               </PropertyList>
             </Control>
             <Control _test_id="3" id="10485763">
@@ -232,6 +260,10 @@
                 <Height id="24" val="10"/>
                 <Data FieldID="10485762" id="43"/>
                 <ControlName id="46" val="a2"/>
+<<<<<<< HEAD
+=======
+                <_Orientation id="143"/>
+>>>>>>> origin/Branch_A
                 <TabOrder id="314" val="2"/>
               </PropertyList>
             </Control>
@@ -245,6 +277,10 @@
                 <Font id="50" val="1"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+<<<<<<< HEAD
+=======
+                <_Orientation id="143"/>
+>>>>>>> origin/Branch_A
               </PropertyList>
             </Control>
             <Control _test_id="5" id="10485765">
@@ -258,6 +294,10 @@
                 <Height id="24" val="10"/>
                 <Data FieldID="10485763" id="43"/>
                 <ControlName id="46" val="a3"/>
+<<<<<<< HEAD
+=======
+                <_Orientation id="143"/>
+>>>>>>> origin/Branch_A
                 <TabOrder id="314" val="3"/>
               </PropertyList>
             </Control>
