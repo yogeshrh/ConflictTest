@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           <LastModified _date="736780" _time="52162" date="27/03/2018" time="14:29:22"/>
 =======
           <LastModified _date="736772" _time="60605" date="19/03/2018" time="16:50:05"/>
@@ -44,6 +45,11 @@
         </Header>
         <ItemIsn val="3"/>
 >>>>>>> origin/Branch_B
+=======
+          <LastModified _date="736772" _time="60605" date="19/03/2018" time="16:50:05"/>
+        </Header>
+        <ItemIsn val="4"/>
+>>>>>>> origin/Remote_A
         <Resource>
           <Columns>
             <Column id="10485761" name="aa">
@@ -67,6 +73,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/Branch_B
             <Column id="10485763" name="c1">
@@ -78,6 +85,8 @@
                 <_Flip id="194"/>
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/Remote_A
             <Column id="3" name="cc">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
@@ -86,6 +95,7 @@
                 <_Whole id="182" val="10"/>
                 <_Negative id="192"/>
                 <_FieldStyle id="276" val="1"/>
+<<<<<<< HEAD
 >>>>>>> b96fe6d... Remote_A check in
 =======
             <Column id="10485763" name="cc">
@@ -107,6 +117,8 @@
 >>>>>>> origin/Branch_A
 =======
 >>>>>>> origin/Branch_B
+=======
+>>>>>>> origin/Remote_A
               </PropertyList>
             </Column>
           </Columns>
@@ -255,6 +267,17 @@
               <LogicLine>
                 <Select FieldID="10485763" FlowIsn="10485765" id="10485763">
                   <Column val="10485763"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="4" FlowIsn="5" id="4">
+                  <Column val="3"/>
                   <Type val="V"/>
                   <IsParameter val="N"/>
                   <DIFF_UPDATE val="T"/>
